@@ -1,0 +1,35 @@
+.detail {
+    display: flex;
+
+    &__left {
+        width: 50%;
+    }
+
+    &__img {
+        width: 100%;
+        height: auto;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    &__list-img {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        img {
+            width: 30%;
+        }
+    }
+
+    &__right {
+        width: 50%;
+    }
+
+    &__info-general {
+        display: flex;
+        flex-direction: column;
+    }
+}
