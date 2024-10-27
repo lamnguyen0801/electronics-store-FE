@@ -14,3 +14,8 @@ export const getDetailProduct = async (id) => {
     const result = await get(`product/detailProduct/${id}`);
     return result;
 }
+
+export const getSearchProduct = async (keyword) => {
+    const result = await get(`product?keyword=${keyword}`);
+    return result;
+}

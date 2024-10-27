@@ -2,6 +2,7 @@ import LayoutDefault from "../components/layout/LayoutDefault";
 import Product from "../pages/Product";
 import Home from "../pages/Home";
 import DetailProduct from "../pages/DetailProduct";
+import SearchProduct from "../pages/SearchProduct";
 
 export const routes = [
     {
@@ -19,6 +20,10 @@ export const routes = [
             {
                 path: "detailProduct/:id",
                 element: <DetailProduct />
+            },
+            {
+                path: "product",
+                element: <SearchProduct />
             },
         ]
     }
